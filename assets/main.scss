@@ -1,25 +1,26 @@
---- --- @import "minima";
+---
+---
 
-/* your custom overrides */
+@import "minima";
 
 html {
-    direction: rtl;
+  direction: rtl;
 }
 
 body {
-    text-align: right;
+  text-align: right;
 }
 
 .page-content,
 .post-content,
 .wrapper {
-    direction: rtl;
-    text-align: right;
+  direction: rtl;
+  text-align: right;
 }
 
 pre,
 code {
-    direction: ltr !important;
-    text-align: left !important;
-    unicode-bidi: embed;
+  direction: ltr !important;
+  text-align: left !important;
+  unicode-bidi: embed;
 }
