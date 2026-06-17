@@ -1,11 +1,11 @@
 title: Let's DIY
 theme: minima
 
-author:
-  name: Alireza Sabouei
+author: Alireza Sabouei (علیرضا صبوئی)
 
 description: >
-  Notes on .NET, embedded systems, electronics and DIY projects.
+  تجربه های شخصی من درباره پروژه های دات نت، سیستم های الکترونیکی و اینترنت اشیا و پروژه های DIY
 
 show_excerpts: true
 hide_site_feed_link: true
+excerpt_separator: <!--بیشتر-->
