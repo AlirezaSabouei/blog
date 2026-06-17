@@ -1,18 +1,13 @@
 ---
 layout: page
-title: About
+title: درباره من
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+سلام
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+من علیرضا صبوئی هستم. یک برنامه نویس Backed دات نت.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+در این وبلاگ از تجربه های شخصی ام درباره الکترونیک، IOT، و برنامه نویسی و پروژه های DIY مینویسم.
 
-
-[jekyll-organization]: https://github.com/jekyll
+درصورتی که ایده یا پروژه ای برای انجام دارید، از طریق صفحه [لینکداین](https://www.linkedin.com/in/alireza-sabouei/) با من در تماس باشید.
