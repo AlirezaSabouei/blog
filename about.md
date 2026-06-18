@@ -3,7 +3,8 @@ layout: page
 title: درباره من
 permalink: /about/
 ---
-
+![علیرضا صبوئی](/blog/assets/images/Alireza_Sabouei.webp)
+<br/>
 سلام
 
 من علیرضا صبوئی هستم. یک برنامه نویس Backed دات نت.
