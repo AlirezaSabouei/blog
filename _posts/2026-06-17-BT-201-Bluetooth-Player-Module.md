@@ -6,7 +6,7 @@ author: Alireza Sabouei
 وقتی به سراغ پروژه هایی میرویم که در آنها از پلیرهای بلوتوثی استفاده میشود، با انتخاب های بسیار زیادی مواجه هستیم. این تنوع ماژول، ممکن است حتی گمراه کننده باشد. در این پست میخواهم یکی از این ماژول ها را که شخصا استفاده کرده ام بررسی کنم
 <!--بیشتر-->
 
-![نمای کلی ماژول BT-201](/blog/assets/images/BT-201.webp)
+![نمای کلی ماژول BT-201](/assets/images/BT-201.webp)
 
 ## مقدمه
 
@@ -67,6 +67,6 @@ author: Alireza Sabouei
 
 <br/>
 <div style="display:flex; gap:10px;">
-    <img alt="اسپیکر ساخته شده با ماژول BT-201" src="/blog/assets/images/BT-201-Speaker.webp" width="50%">
-    <img alt="تصویر واقعی ماژول BT-201" src="/blog/assets/images/BT-201-Real.webp" width="50%">
+    <img alt="اسپیکر ساخته شده با ماژول BT-201" src="/assets/images/BT-201-Speaker.webp" width="50%">
+    <img alt="تصویر واقعی ماژول BT-201" src="/assets/images/BT-201-Real.webp" width="50%">
 </div>
