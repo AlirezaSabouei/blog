@@ -1,17 +1,60 @@
+# Site configuration for the Chirpy preview
+
+theme: jekyll-theme-chirpy
+
+lang: fa-IR
+timezone: Asia/Tehran
+
 title: Let's DIY
-theme: minima
+tagline: تجربه‌های شخصی در برنامه‌نویسی، الکترونیک و پروژه‌های DIY
+description: >-
+  تجربه‌های شخصی من درباره پروژه‌های دات‌نت، سیستم‌های الکترونیکی، اینترنت اشیا و پروژه‌های DIY
 
 url: "https://letsdiy.ir"
 baseurl: ""
 
-author: Alireza Sabouei (علیرضا صبوئی)
+github:
+  username: AlirezaSabouei
 
-description: >
-  تجربه های شخصی من درباره پروژه های دات نت، سیستم های الکترونیکی و اینترنت اشیا و پروژه های DIY
+social:
+  name: Alireza Sabouei
+  links:
+    - https://github.com/AlirezaSabouei
+    - https://www.linkedin.com/in/alireza-sabouei/
 
-show_excerpts: true
-hide_site_feed_link: true
-excerpt_separator: <!--بیشتر-->
+toc: true
+
+theme_mode:
+
+paginate: 10
 
 plugins:
   - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      toc: true
+      comments: false
+      permalink: /posts/:title/
+
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - LICENSE
+  - "*.gem"
+  - "*.gemspec"
+  - Gemfile
+  - Gemfile.lock
