@@ -48,7 +48,7 @@ html[lang='fa-IR'] #sidebar {
 
 html[lang='fa-IR'] #main-wrapper {
   margin-left: 0;
-  margin-right: var(--sidebar-width);
+  margin-right: 260px;
 }
 
 html[lang='fa-IR'] #sidebar .profile-wrapper {
@@ -100,11 +100,10 @@ html[lang='fa-IR'] code {
     left: 0;
   }
 
-  html[lang='fa-IR'] [sidebar-display] #main-wrapper {
-    transform: translateX(-var(--sidebar-width));
-  }
+    }
 
-  html[lang='fa-IR'] [sidebar-display] #sidebar {
-    transform: translateX(0);
+@media (min-width: 1400px) {
+  html[lang='fa-IR'] #main-wrapper {
+    margin-right: 300px;
   }
 }
