@@ -7,7 +7,7 @@ author: Alireza Sabouei
 یکی از این موتورها، موتور دی سی گیربکس دار 2 محوره است. در این پست سعی میکنم مشاهداتم از استفاده این نوع موتور را با شما به اشتراک بگذارم...
 <!--بیشتر-->
 
-![موتور گیزبکس دار 2 محوره اسباب بازی](/blog/assets/images/DC-Geared-Motor-2-Shafts.webp)
+![موتور گیزبکس دار 2 محوره اسباب بازی](/assets/images/DC-Geared-Motor-2-Shafts.webp)
 
 ## مقدمه
 
@@ -19,8 +19,8 @@ author: Alireza Sabouei
 
 ## تجربه استفاده
 <div style="display:flex; gap:10px;">
-    <img alt="مقدار مصرف موتور گیربکس دار 2 محوره اسباب بازی" src="/blog/assets/images/DC-Geared-Motor-2-Shafts-Usage.webp" width="50%">
-    <img alt="نصب موتور گیربکس دار 2 محوره روی شاسی" src="/blog/assets/images/DC-Geared-Motor-2-Shafts-Mounting.webp" width="50%">
+    <img alt="مقدار مصرف موتور گیربکس دار 2 محوره اسباب بازی" src="/assets/images/DC-Geared-Motor-2-Shafts-Usage.webp" width="50%">
+    <img alt="نصب موتور گیربکس دار 2 محوره روی شاسی" src="/assets/images/DC-Geared-Motor-2-Shafts-Mounting.webp" width="50%">
 </div>
 <br/>
 #### مقدار مصرف
