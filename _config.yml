@@ -1,6 +1,9 @@
 title: Let's DIY
 theme: minima
 
+url: "https://letsdiy.ir"
+baseurl: ""
+
 author: Alireza Sabouei (علیرضا صبوئی)
 
 description: >
@@ -9,3 +12,6 @@ description: >
 show_excerpts: true
 hide_site_feed_link: true
 excerpt_separator: <!--بیشتر-->
+
+plugins:
+  - jekyll-sitemap
