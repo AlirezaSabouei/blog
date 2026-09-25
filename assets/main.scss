@@ -2,25 +2,168 @@
 ---
 
 @font-face {
-  font-family: "Vazirmatn-Bold";
+  font-family: "Vazirmatn";
+  src: url("./fonts/Vazirmatn-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("./fonts/Vazirmatn-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Vazirmatn";
   src: url("./fonts/Vazirmatn-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @import "minima";
 
+:root {
+  color-scheme: dark;
+}
+
 html {
   direction: rtl;
+  background: #121212;
 }
 
 body {
+  direction: rtl;
   text-align: right;
+  background: #121212;
+  color: #e6e6e6;
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 17px;
+  line-height: 2;
+}
+
+.wrapper {
+  direction: rtl;
+}
+
+.site-header {
+  background: #181818;
+  border-top: 5px solid #252525;
+  border-bottom: 1px solid #303030;
+}
+
+.site-title,
+.site-title:visited {
+  color: #f2f2f2;
+  font-family: "Vazirmatn", sans-serif;
+  font-weight: 700;
+}
+
+.site-nav .page-link {
+  color: #dddddd;
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 0.95rem;
+}
+
+.site-nav .page-link:hover {
+  color: #ffffff;
 }
 
 .page-content,
-.post-content,
-.wrapper {
+.post-content {
   direction: rtl;
   text-align: right;
+}
+
+.page-content {
+  padding: 2.5rem 0;
+}
+
+.post-content {
+  font-size: 1.05rem;
+}
+
+.post-content p,
+.page-content p {
+  line-height: 2.15;
+  max-width: 46rem;
+  margin-bottom: 1.25rem;
+  text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f2f2f2;
+  font-family: "Vazirmatn", sans-serif;
+  font-weight: 700 !important;
+  line-height: 1.8;
+}
+
+h1 {
+  line-height: 2;
+}
+
+h2 {
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid #353535;
+  margin-bottom: 1.75rem;
+}
+
+a,
+a:visited {
+  color: #8ab4f8;
+}
+
+a:hover {
+  color: #b9d3ff;
+  text-decoration: underline;
+}
+
+.post-list-heading {
+  color: #f2f2f2;
+}
+
+.post-list > li {
+  margin-bottom: 2rem;
+}
+
+.post-link {
+  color: #8ab4f8 !important;
+  font-family: "Vazirmatn", sans-serif;
+  font-weight: 700;
+  line-height: 1.8;
+}
+
+.post-meta {
+  color: #a8a8a8;
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 0.85rem;
+}
+
+blockquote {
+  color: #c4c4c4;
+  border-right: 4px solid #555;
+  border-left: 0;
+  padding-right: 1rem;
+  padding-left: 0;
+  margin-right: 0;
+}
+
+ul,
+ol {
+  margin-right: 2rem;
+}
+
+li {
+  margin-bottom: 0.35rem;
 }
 
 pre,
@@ -28,29 +171,82 @@ code {
   direction: ltr !important;
   text-align: left !important;
   unicode-bidi: embed;
+  font-family: "DejaVu Sans Mono", "Courier New", monospace;
 }
 
-h1,h2,h3,h4,h5,h6{
-	font-weight: bold!important;
-	font-family: "Vazirmatn-Bold"
+code {
+  color: #e8e8e8;
+  background: #1d1d1d;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 0.1rem 0.3rem;
 }
 
-h1{
-   line-height: 3rem;
+pre {
+  background: #1b1b1b;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 1rem 1.1rem;
+  overflow-x: auto;
+  line-height: 1.6;
 }
 
-h2{
-    padding-bottom: 0.5rem;
-    border-bottom: 1px dotted #ccc;
-    margin-bottom: 2rem;
+pre code {
+  background: transparent;
+  border: 0;
+  padding: 0;
 }
-ul, ol {
-    margin-right: 30px;
+
+table {
+  color: #e6e6e6;
+  border-color: #3a3a3a;
 }
-p{
-line-height: 2.1rem;
-    padding: 0 1rem;
-    max-width: 42rem;
-    text-align: justify;
-    margin-bottom: 1rem;
+
+table th {
+  background: #202020;
+  color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+  background: #181818;
+}
+
+table tr:nth-child(odd) {
+  background: #121212;
+}
+
+table td,
+table th {
+  border-color: #3a3a3a;
+}
+
+.site-footer {
+  background: #181818;
+  border-top: 1px solid #303030;
+  color: #a8a8a8;
+}
+
+.footer-heading {
+  color: #dddddd;
+  font-family: "Vazirmatn", sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .page-content {
+    padding: 2rem 0;
+  }
+
+  .post-content {
+    font-size: 1rem;
+  }
+
+  .post-content p,
+  .page-content p {
+    text-align: right;
+    line-height: 2.1;
+  }
 }
