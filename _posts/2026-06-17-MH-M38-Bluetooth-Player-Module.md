@@ -8,7 +8,7 @@ author: Alireza Sabouei
 این ماژول، پلیر کوچک و کار راه انداز M-38 است.
 <!--بیشتر-->
 
-![نمای کلی ماژول MH-M38](/blog/assets/images/MH-M38.jpg)
+![نمای کلی ماژول MH-M38](/assets/images/MH-M38.jpg)
 
 ## مقدمه
 
@@ -61,6 +61,6 @@ author: Alireza Sabouei
 * نداشتن خروجی آمپلیفای نشده برای استفاده در آمپلی فایر
 
 <div style="display:flex; gap:10px;">
-    <img alt="اسپیکر ساخته شده با ماژول MH-M38" src="/blog/assets/images/MH-M38-Speaker.webp" width="50%">
-    <img alt="تصویر واقعی ماژول MH-M38" src="/blog/assets/images/MH-M38-Real.webp" width="50%">
+    <img alt="اسپیکر ساخته شده با ماژول MH-M38" src="/assets/images/MH-M38-Speaker.webp" width="50%">
+    <img alt="تصویر واقعی ماژول MH-M38" src="/assets/images/MH-M38-Real.webp" width="50%">
 </div>
