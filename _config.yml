@@ -15,3 +15,5 @@ excerpt_separator: <!--بیشتر-->
 
 plugins:
   - jekyll-sitemap
+
+# Trigger GitHub Pages rebuild
